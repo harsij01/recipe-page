@@ -15,7 +15,7 @@
 
 body {
     width: 100vw;
-    background-color: hsl(330, 100%, 96%);
+    background-color: hsl(30, 54%, 90%);
 }
 
 .container {
@@ -26,7 +26,7 @@ body {
     font-size: 16px;
     color: hsl(30, 10%, 34%);
     border-radius: 30px;
-    margin: 50px auto;
+    margin: 100px auto;
     padding: 50px;
 }
 
@@ -55,13 +55,15 @@ h1, h2 {
     padding: 20px 0 20px 45px;
 }
 
-h3, .prep-time li::marker {
+.prep-title, .prep-time li::marker {
     color: hsl(332, 51%, 32%);
 }
 
-h3 {
+.prep-title {
     font-weight: 700;
     padding-bottom: 15px;
+    font-size: 1.4em;
+    font-family: 'Outfit';
 }
 
 .bold, .instructions li::marker {
@@ -80,7 +82,7 @@ li {
     margin-bottom: 20px;
     padding-bottom: 20px;
     padding-left: 20px;
-    border-bottom: 1px solid hsla(30, 10%, 34%, 30%);
+    border-bottom: 1px solid hsl(30, 18%, 87%);
 }
 
 h2 {
@@ -99,7 +101,7 @@ table {
 tr {
     display: flex;
     padding: 10px 0;
-    border-bottom: 1px solid hsla(30, 10%, 34%, 30%);
+    border-bottom: 1px solid hsl(30, 18%, 87%);
 }
 
 tr:last-child {
