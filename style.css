@@ -14,28 +14,28 @@
 }
 
 body {
-    background-color: hsl(330, 100%, 96%);
     width: 100vw;
-    font-size: 16px;
+    background-color: hsl(330, 100%, 96%);
 }
 
 .container {
-    border-radius: 30px;
-    width: 50%;
-    margin: 50px auto;
-    padding: 50px;
+    width: 45%;
     background-color: hsl(0, 0%, 100%);
     font-family: 'Outfit';
     font-weight: 400;
+    font-size: 16px;
     color: hsl(30, 10%, 34%);
+    border-radius: 30px;
+    margin: 50px auto;
+    padding: 50px;
 }
 
 img {
     display: block;
     max-width: 100%;
     height: auto;
-    margin-bottom: 15px;
     border-radius: 20px;
+    margin-bottom: 15px;
 }
 
 h1 {
@@ -48,6 +48,13 @@ h1, h2 {
     font-weight: 400;
 }
 
+.prep-time {
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 15px;
+    margin: 25px 0;
+    padding: 20px 0 20px 45px;
+}
+
 h3, .prep-time li::marker {
     color: hsl(332, 51%, 32%);
 }
@@ -57,15 +64,23 @@ h3 {
     padding-bottom: 15px;
 }
 
-.prep-time {
-    background-color: hsl(330, 100%, 98%);
-    margin: 25px 0;
-    padding: 20px 0 20px 45px;
-    border-radius: 15px;
+.bold, .instructions li::marker {
+    font-weight: 600;
+}
+
+.prep-time li::marker, .ingredients li::marker {
+    font-size: 0.7em;
 }
 
 li {
     padding: 7px 0;
+}
+
+.ingredients, .instructions {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    border-bottom: 1px solid hsla(30, 10%, 34%, 30%);
 }
 
 h2 {
@@ -76,33 +91,18 @@ h2, table span,  .ingredients li::marker, .instructions li::marker {
     color: hsl(14, 45%, 36%);
 }
 
-.bold, .instructions li::marker {
-    font-weight: 600;
-}
-
-.ingredients li::marker, .prep-time li::marker {
-    font-size: 0.7em;
-}
-
-.ingredients, .instructions {
-    margin-bottom: 20px;
-    padding-bottom: 20px;
-    padding-left: 20px;
-    border-bottom: 1px solid hsla(30, 10%, 34%, 30%);
-}
-
 table {
     margin-top: 15px;
     width: 100%;
 }
 
-table tr {
+tr {
     display: flex;
     padding: 10px 0;
     border-bottom: 1px solid hsla(30, 10%, 34%, 30%);
 }
 
-table tr:last-child {
+tr:last-child {
     border-bottom: none;
 }
 
