@@ -10,10 +10,13 @@
     font-weight: normal;
 }
 
+* {
+    padding: 0;
+    margin: 0;
+}
+
 body {
     background-color: hsl(330, 100%, 96%);
-    margin: 0;
-    padding: 0;
     width: 100vw;
     font-size: 16px;
 }
@@ -30,7 +33,11 @@ body {
 
 .prep-time {
     background-color: hsl(330, 100%, 98%);
-    padding: 20px;
+    color: hsl(332, 51%, 32%);
+}
+
+.prep-time span {
+    color: hsl(24, 5%, 18%);
 }
 
 h1, h2 {
@@ -38,6 +45,7 @@ h1, h2 {
 }
 
 img {
+    display: block;
     max-width: 100%;
     height: auto;
 }
@@ -45,20 +53,10 @@ img {
 h3 {
     font-weight: 700;
     color: hsl(332, 51%, 32%);
-    padding: 0;
-    margin: 0;
 }
 
 h2, table span {
     color: hsl(14, 45%, 36%);
-}
-
-ul, ol {
-    margin: 0;
-}
-
-span {
-    font-weight: 600;
 }
 
 .attribution { 
@@ -68,4 +66,21 @@ span {
 
 .attribution a { 
     color: hsl(228, 45%, 44%); 
+}
+
+.ingredients, .instructions {
+    color: hsl(14, 45%, 36%);
+}
+
+.ingredients span, .instructions span {
+    font-weight: normal;
+    color: hsl(24, 5%, 18%);
+}
+
+/* .bold {
+    font-weight: 600;
+} */
+
+ol li, span.bold {
+    font-weight: 600;
 }
