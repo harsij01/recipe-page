@@ -56,15 +56,9 @@ h3 {
 
 .prep-time {
     background-color: hsl(330, 100%, 98%);
-    color: hsl(332, 51%, 32%);
     margin: 25px 0;
     padding: 20px 0 20px 45px;
     border-radius: 15px;
-}
-
-.prep-time span, .ingredients span, .instructions span {
-    font-weight: normal;
-    color: hsl(30, 10%, 34%);
 }
 
 li {
@@ -75,11 +69,26 @@ h2 {
     padding-bottom: 15px;
 }
 
-h2, table span, .ingredients, .instructions {
+h2, table span {
     color: hsl(14, 45%, 36%);
 }
 
-ol li, span.bold {
+.bold {
+    font-weight: 600;
+}
+
+.prep-time li::marker {
+    font-size: 0.7em;
+    color: hsl(332, 51%, 32%);
+}
+
+.ingredients li::marker {
+    font-size: 0.7em;
+    color: hsl(14, 45%, 36%);
+}
+
+.instructions li::marker {
+    color: hsl(14, 45%, 36%);
     font-weight: 600;
 }
 
@@ -91,7 +100,7 @@ ol li, span.bold {
 }
 
 .attribution { 
-    font-size: 11px; 
+    font-size: 13px; 
     text-align: center; 
 }
 
