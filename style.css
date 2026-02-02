@@ -29,12 +29,17 @@ body {
     background-color: hsl(0, 0%, 100%);
     font-family: 'Outfit';
     font-weight: 400;
+    color: hsl(30, 10%, 34%);
 }
 
 img {
     display: block;
     max-width: 100%;
     height: auto;
+}
+
+h1 {
+    color: hsl(24, 5%, 18%);
 }
 
 h1, h2 {
@@ -53,7 +58,7 @@ h3 {
 
 .prep-time span, .ingredients span, .instructions span {
     font-weight: normal;
-    color: hsl(24, 5%, 18%);
+    color: hsl(30, 10%, 34%);
 }
 
 h2, table span, .ingredients, .instructions {
