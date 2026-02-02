@@ -91,6 +91,26 @@ h2, table span,  .ingredients li::marker, .instructions li::marker {
     border-bottom: 1px solid hsla(30, 10%, 34%, 30%);
 }
 
+table {
+    margin-top: 15px;
+    width: 100%;
+}
+
+table tr {
+    display: flex;
+    padding: 10px 0;
+    border-bottom: 1px solid hsla(30, 10%, 34%, 30%);
+}
+
+table tr:last-child {
+    border-bottom: none;
+}
+
+td {
+    padding-left: 20px;
+    width: 50%;
+}
+
 .attribution { 
     font-size: 13px; 
     text-align: center; 
